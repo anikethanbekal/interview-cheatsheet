@@ -9,27 +9,31 @@
         <meta name="description" content="A comprehensive guide for SDET interviews, covering DSA, SDET CheatSheets.">
       
       
-        <meta name="author" content="yourname">
+        <meta name="author" content="Anikethan Bekal">
       
       
-        <link rel="canonical" href="https://anikethanbekal.github.io/sdet-interview-prep/practice-programs-hub/StandardFormat/">
+        <link rel="canonical" href="https://anikethanbekal.github.io/sdet-interview-prep/tech-essentials-guide/testing-concepts/manual-testing-basics/">
       
       
+        <link rel="prev" href="../../../cheat-sheets/testing/manual/basics-manual-testing/">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+        <link rel="next" href="../../../practice-programs-hub/strings/CharacterCount/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
       
-        <title>Reverse a String in Java and Python - SDET Interview Preparation Notes</title>
+        <title>Comprehensive Manual Testing Notes - SDET Interview Preparation Notes</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -48,9 +52,9 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#problem-reverse-a-string" class="md-skip">
+        <a href="#comprehensive-manual-testing-notes" class="md-skip">
           Skip to content
         </a>
       
@@ -90,7 +94,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="SDET Interview Preparation Notes" class="md-header__button md-logo" aria-label="SDET Interview Preparation Notes" data-md-component="logo">
+    <a href="../../.." title="SDET Interview Preparation Notes" class="md-header__button md-logo" aria-label="SDET Interview Preparation Notes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.82 17 13 19.28V22H6c-1.11 0-2-.89-2-2V4a2 2 0 0 1 2-2h1v7l2.5-1.5L12 9V2h6a2 2 0 0 1 2 2v8.54l-1.5-.82zM24 17l-5.5-3-5.5 3 5.5 3zm-9 2.09v2L18.5 23l3.5-1.91v-2L18.5 21z"/></svg>
@@ -110,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Reverse a String in Java and Python
+              Comprehensive Manual Testing Notes
             
           </span>
         </div>
@@ -209,7 +213,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="SDET Interview Preparation Notes" class="md-nav__button md-logo" aria-label="SDET Interview Preparation Notes" data-md-component="logo">
+    <a href="../../.." title="SDET Interview Preparation Notes" class="md-nav__button md-logo" aria-label="SDET Interview Preparation Notes" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.82 17 13 19.28V22H6c-1.11 0-2-.89-2-2V4a2 2 0 0 1 2-2h1v7l2.5-1.5L12 9V2h6a2 2 0 0 1 2 2v8.54l-1.5-.82zM24 17l-5.5-3-5.5 3 5.5 3zm-9 2.09v2L18.5 23l3.5-1.91v-2L18.5 21z"/></svg>
@@ -239,7 +243,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -448,7 +452,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../cheat-sheets/testing/automation/selenium/" class="md-nav__link">
+      <a href="../../../cheat-sheets/testing/automation/selenium/" class="md-nav__link">
         
   
   
@@ -471,7 +475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../cheat-sheets/testing/automation/selenium-files/" class="md-nav__link">
+      <a href="../../../cheat-sheets/testing/automation/selenium-files/" class="md-nav__link">
         
   
   
@@ -494,7 +498,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../cheat-sheets/testing/automation/selenium-jsExecutor/" class="md-nav__link">
+      <a href="../../../cheat-sheets/testing/automation/selenium-jsExecutor/" class="md-nav__link">
         
   
   
@@ -517,7 +521,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../cheat-sheets/testing/automation/selenium-difference/" class="md-nav__link">
+      <a href="../../../cheat-sheets/testing/automation/selenium-difference/" class="md-nav__link">
         
   
   
@@ -556,7 +560,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../cheat-sheets/testing/manual/basics-manual-testing/" class="md-nav__link">
+      <a href="../../../cheat-sheets/testing/manual/basics-manual-testing/" class="md-nav__link">
         
   
   
@@ -591,8 +595,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -607,11 +613,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
@@ -627,7 +633,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Essentials Guide
@@ -638,8 +644,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -651,11 +659,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" checked>
         
           
           <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
@@ -671,7 +679,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_1">
             <span class="md-nav__icon md-icon"></span>
             Testing Concepts
@@ -682,10 +690,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../tech-essentials-guide/testing-concepts/manual-testing-basics/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Manual Testing Basics
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -696,6 +726,170 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      📚 Table of Contents
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction-to-manual-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 Introduction to Manual Testing
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧠 Introduction to Manual Testing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#importance-of-manual-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔑 Importance of Manual Testing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types-of-manual-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧰 Types of Manual Testing
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧰 Types of Manual Testing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#smoke-sanity-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔥 Smoke / Sanity Testing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#functional-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Functional Testing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integration-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔗 Integration Testing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#end-to-end-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌐 End-to-End Testing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regression-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔄 Regression Testing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exploratory-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍 Exploratory Testing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Performance Testing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manual-testing-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔄 Manual Testing Process
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔄 Manual Testing Process">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-by-step-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step-by-Step Process
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flowchart-representation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flowchart Representation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -816,7 +1010,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strings/CharacterCount/" class="md-nav__link">
+      <a href="../../../practice-programs-hub/strings/CharacterCount/" class="md-nav__link">
         
   
   
@@ -839,7 +1033,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strings/CountUppecaseCharacter/" class="md-nav__link">
+      <a href="../../../practice-programs-hub/strings/CountUppecaseCharacter/" class="md-nav__link">
         
   
   
@@ -886,107 +1080,99 @@
 
 
 
-<h1 id="problem-reverse-a-string">🧠 Problem: Reverse a String<a class="headerlink" href="#problem-reverse-a-string" title="Permanent link">&para;</a></h1>
-<p>Write a function that takes a string as input and returns the reversed version of that string.</p>
-<p><strong>Category</strong>: Arrays<br />
-<strong>Difficulty</strong>: Easy<br />
-<strong>Tags</strong>: array, hashmap, brute-force, optimized</p>
-<hr />
-<h2 id="requirements-if-any">✅ Requirements (if any)<a class="headerlink" href="#requirements-if-any" title="Permanent link">&para;</a></h2>
+<h1 id="comprehensive-manual-testing-notes">📘 Comprehensive Manual Testing Notes<a class="headerlink" href="#comprehensive-manual-testing-notes" title="Permanent link">&para;</a></h1>
+<h2 id="table-of-contents">📚 Table of Contents<a class="headerlink" href="#table-of-contents" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Input</strong>: A non-empty string <code>s</code> (e.g., <code>"hello"</code>)</li>
-<li><strong>Output</strong>: The reversed string (e.g., <code>"olleh"</code>)</li>
-<li><strong>Constraints</strong>:</li>
-<li>No use of built-in reverse functions.</li>
-<li>Time complexity should be linear <code>O(n)</code>.</li>
-<li>Try to avoid extra space if possible (in-place logic where applicable).</li>
+<li><a href="#-comprehensive-manual-testing-notes">📘 Comprehensive Manual Testing Notes</a></li>
+<li><a href="#-table-of-contents">📚 Table of Contents</a></li>
+<li><a href="#-introduction-to-manual-testing">🧠 Introduction to Manual Testing</a><ul>
+<li><a href="#-importance-of-manual-testing">🔑 Importance of Manual Testing</a></li>
 </ul>
-<hr />
-<h2 id="examples">🧪 Example(s)<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Input:  &quot;hello&quot;
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>Output: &quot;olleh&quot;
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>Input:  &quot;abc&quot;
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>Output: &quot;cba&quot;
-</code></pre></div>
-<hr />
-<h2 id="java-solution">☕ Java Solution<a class="headerlink" href="#java-solution" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">// File: ReverseString.java</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">ReverseString</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="nf">reverse</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">s</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">StringBuilder</span><span class="p">(</span><span class="n">s</span><span class="p">).</span><span class="na">reverse</span><span class="p">().</span><span class="na">toString</span><span class="p">();</span>
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>
-<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">input</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;hello&quot;</span><span class="p">;</span>
-<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">reverse</span><span class="p">(</span><span class="n">input</span><span class="p">));</span><span class="w">  </span><span class="c1">// Output: olleh</span>
-<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="p">}</span>
-</code></pre></div>
-<hr />
-<h2 id="python-solution">🔵🟡 Python Solution<a class="headerlink" href="#python-solution" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">reverse</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>    <span class="k">return</span> <span class="n">s</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c1"># Example usage</span>
-<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="nb">print</span><span class="p">(</span><span class="n">reverse</span><span class="p">(</span><span class="s2">&quot;hello&quot;</span><span class="p">))</span>  <span class="c1"># Output: olleh</span>
-</code></pre></div>
-<hr />
-<h2 id="explanation">🔍 Explanation<a class="headerlink" href="#explanation" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Java</strong>:</li>
-<li>Uses <code>StringBuilder</code> which has a <code>.reverse()</code> method.</li>
-<li><code>.toString()</code> converts the result back to a string.</li>
-<li>
-<p>Efficient and standard for short strings.</p>
 </li>
-<li>
-<p><strong>Python</strong>:</p>
+<li><a href="#-types-of-manual-testing">🧰 Types of Manual Testing</a><ul>
+<li><a href="#-smoke--sanity-testing">🔥 Smoke / Sanity Testing</a></li>
+<li><a href="#-functional-testing">✅ Functional Testing</a></li>
+<li><a href="#-integration-testing">🔗 Integration Testing</a></li>
+<li><a href="#-end-to-end-testing">🌐 End-to-End Testing</a></li>
+<li><a href="#-regression-testing">🔄 Regression Testing</a></li>
+<li><a href="#-exploratory-testing">🔍 Exploratory Testing</a></li>
+<li><a href="#-performance-testing">🚀 Performance Testing</a></li>
+</ul>
 </li>
-<li>Uses slicing <code>[::-1]</code>, a common idiom in Python for reversing.</li>
-<li>It's concise and memory-efficient.</li>
+<li><a href="#-manual-testing-process">🔄 Manual Testing Process</a><ul>
+<li><a href="#step-by-step-process">Step-by-Step Process</a></li>
+<li><a href="#flowchart-representation">Flowchart Representation</a></li>
+</ul>
+</li>
 </ul>
 <hr />
-<h2 id="time-space-complexity">⏱️ Time &amp; Space Complexity<a class="headerlink" href="#time-space-complexity" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Language</th>
-<th>Time Complexity</th>
-<th>Space Complexity</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Java</td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td><code>StringBuilder</code> creates a copy</td>
-</tr>
-<tr>
-<td>Python</td>
-<td>O(n)</td>
-<td>O(n)</td>
-<td>Slicing makes a new string</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="interview-tips-notes">⚠️ Interview Tips / Notes<a class="headerlink" href="#interview-tips-notes" title="Permanent link">&para;</a></h2>
+<h2 id="introduction-to-manual-testing">🧠 Introduction to Manual Testing<a class="headerlink" href="#introduction-to-manual-testing" title="Permanent link">&para;</a></h2>
+<p>Manual testing involves manually verifying software for defects by simulating end-user behavior. It requires analytical skills, domain expertise, and proficiency in test execution to ensure the software meets functionality and quality standards.</p>
+<h3 id="importance-of-manual-testing">🔑 Importance of Manual Testing<a class="headerlink" href="#importance-of-manual-testing" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Avoid using <code>StringBuilder</code> or slicing if interviewers ask for manual logic.</li>
-<li><strong>Java Manual Approach</strong>: Use <code>char[]</code>, swap in-place.</li>
-<li><strong>Python Manual Approach</strong>: Use a loop and string concatenation or list reversal.</li>
-<li>Be prepared to reverse:</li>
-<li><strong>In-place</strong> (e.g., <code>char[]</code>, mutable list)</li>
-<li>With/without additional space</li>
-<li>Strings with <strong>Unicode</strong>, emojis, or special characters (complex case)</li>
+<li><strong>Human Insight</strong>: Identifies usability and design flaws that automation may miss.</li>
+<li><strong>Flexibility</strong>: Adaptable to exploratory and ad-hoc testing scenarios.</li>
+<li><strong>Comprehensive Coverage</strong>: Helps uncover edge cases and scenarios where automation is impractical.</li>
 </ul>
 <hr />
-<h2 id="tags">🏷 Tags<a class="headerlink" href="#tags" title="Permanent link">&para;</a></h2>
-<p><code>string</code>, <code>python</code>, <code>java</code>, <code>reversal</code>, <code>easy</code>, <code>interview</code>, <code>syntax</code>, <code>language-syntax</code></p>
+<h2 id="types-of-manual-testing">🧰 Types of Manual Testing<a class="headerlink" href="#types-of-manual-testing" title="Permanent link">&para;</a></h2>
+<h3 id="smoke-sanity-testing">🔥 Smoke / Sanity Testing<a class="headerlink" href="#smoke-sanity-testing" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Purpose</strong>: Verify basic functionality of the application.</li>
+<li><strong>Example</strong>: Checking if the login page loads correctly.</li>
+</ul>
+<h3 id="functional-testing">✅ Functional Testing<a class="headerlink" href="#functional-testing" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Purpose</strong>: Validate that the application behaves as expected.</li>
+<li><strong>Example</strong>: Testing if a user can successfully place an order.</li>
+</ul>
+<h3 id="integration-testing">🔗 Integration Testing<a class="headerlink" href="#integration-testing" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Purpose</strong>: Ensure modules work together seamlessly.</li>
+<li><strong>Example</strong>: Testing the interaction between the payment gateway and the order system.</li>
+</ul>
+<h3 id="end-to-end-testing">🌐 End-to-End Testing<a class="headerlink" href="#end-to-end-testing" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Purpose</strong>: Test the entire application workflow.</li>
+<li><strong>Example</strong>: Simulating a user journey from registration to checkout.</li>
+</ul>
+<h3 id="regression-testing">🔄 Regression Testing<a class="headerlink" href="#regression-testing" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Purpose</strong>: Verify that new changes haven’t broken existing functionality.</li>
+<li><strong>Example</strong>: Retesting login functionality after a code update.</li>
+</ul>
+<h3 id="exploratory-testing">🔍 Exploratory Testing<a class="headerlink" href="#exploratory-testing" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Purpose</strong>: Ad-hoc testing to discover issues without predefined cases.</li>
+<li><strong>Example</strong>: Randomly navigating through the application to find bugs.</li>
+</ul>
+<h3 id="performance-testing">🚀 Performance Testing<a class="headerlink" href="#performance-testing" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Purpose</strong>: Assess application speed and stability.</li>
+<li>💪 <strong>Stress Testing</strong>: Test system behavior under extreme load.</li>
+<li>📈 <strong>Load Testing</strong>: Test system behavior under expected load.</li>
+</ul>
 <hr />
+<h2 id="manual-testing-process">🔄 Manual Testing Process<a class="headerlink" href="#manual-testing-process" title="Permanent link">&para;</a></h2>
+<h3 id="step-by-step-process">Step-by-Step Process<a class="headerlink" href="#step-by-step-process" title="Permanent link">&para;</a></h3>
+<ol>
+<li>📜 <strong>Requirement Analysis</strong>: Understand the requirements and scope of testing.</li>
+<li>📝 <strong>Test Planning</strong>: Define the testing strategy, timeline, and resources.</li>
+<li>🧪 <strong>Test Case Design</strong>: Create detailed test cases based on requirements.</li>
+<li>🛠️ <strong>Test Environment Setup</strong>: Prepare the testing environment and data.</li>
+<li>🚀 <strong>Test Execution</strong>: Execute test cases and document results.</li>
+<li>🐞 <strong>Defect Reporting</strong>: Log defects in a defect tracking tool.</li>
+<li>✅ <strong>Test Closure</strong>: Summarize testing activities and results.</li>
+</ol>
+<h3 id="flowchart-representation">Flowchart Representation<a class="headerlink" href="#flowchart-representation" title="Permanent link">&para;</a></h3>
+<p>```mermaid
+graph TD
+    A[Requirement Analysis] --&gt; B[Test Planning]
+    B --&gt; C[Test Case Design]
+    C --&gt; D[Test Environment Setup]
+    D --&gt; E[Test Execution]
+    E --&gt; F[Defect Reporting]
+    F --&gt; G[Test Closure]</p>
 
 
 
@@ -1046,12 +1232,12 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.indexes", "navigation.path", "navigation.top", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.code.annotate", "content.tabs.link", "content.footnote.tooltips", "toc.integrate", "header.autohide"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.sections", "navigation.indexes", "navigation.path", "navigation.top", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.code.annotate", "content.tabs.link", "content.footnote.tooltips", "toc.integrate", "header.autohide"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
-        <script src="../../javascripts/extra.js"></script>
+        <script src="../../../javascripts/extra.js"></script>
       
     
   </body>
